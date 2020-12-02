@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+/* main */
+main {
+  height: calc(100vh - 100px);
+  display: flex;
+}
+
+.main-nav {
+  height: 100%;
+  flex-basis: 250px;
+  background-color: black;
+}
+
+.main-box {
+  height: 100%;
+  flex-grow: 1;
+  background-color: #141922;
+}
+
+/* footer */
 footer {
   height: 100px;
   width: 100%;
