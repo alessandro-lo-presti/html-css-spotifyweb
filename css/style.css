@@ -22,6 +22,16 @@ main {
   background-color: #141922;
 }
 
+.header-box {
+  height: 100px;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
 /* footer */
 footer {
   height: 100px;
