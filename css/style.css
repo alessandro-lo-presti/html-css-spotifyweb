@@ -12,7 +12,7 @@ main {
 
 .main-nav {
   height: 100%;
-  flex-basis: 250px;
+  min-width: 250px;
   background-color: black;
 }
 
@@ -20,6 +20,8 @@ main {
   height: 100%;
   flex-grow: 1;
   background-color: #141922;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
 }
 
 .header-box {
