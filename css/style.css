@@ -17,6 +17,17 @@ a {
   color: #75787d;
 }
 
+/* button */
+.btn-t{
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
 /* main */
 main {
   height: calc(100vh - 100px);
@@ -132,14 +143,22 @@ main {
   /* overflow-x: hidden; */
 }
 
+/* header-box */
 .header-box {
   height: 100px;
   width: calc(100% - 250px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: black;
   opacity: 0.5;
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.header-box a {
+  margin-right: 30px;
 }
 
 /* footer */
