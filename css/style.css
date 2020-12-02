@@ -41,6 +41,11 @@ a:hover {
   border-radius: 20px;
 }
 
+.btn-t:hover{
+  padding: 11px 31px;
+  font-size: 17px;
+}
+
 /* main */
 main {
   height: calc(100vh - 90px);
