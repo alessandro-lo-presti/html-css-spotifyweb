@@ -261,14 +261,21 @@ section p {
   margin-right: calc(20px / 6 + 20px);
 }
 
-.section-flex .layer {
+.pic {
   position: relative;
   font-size: 0;
 }
 
+.section-flex .layer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .section-flex .layer:hover {
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
