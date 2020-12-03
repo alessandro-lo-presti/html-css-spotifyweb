@@ -282,13 +282,21 @@ footer {
   background-color: #282828;
 }
 
-.bars {
+footer i:hover, .bar:hover {
+  cursor: pointer;
+}
+
+.bar {
   height: 5px;
   background-color: #75787d;
   border-radius: 20px;
 }
 
-.bars-active{
+.bar:hover .bar-active{
+  background-color: #adff2f;
+}
+
+.bar-active{
   width: 25%;
   height: 5px;
   background-color: #c1c1c1;
@@ -310,14 +318,21 @@ footer {
   font-size: 14px;
 }
 
+.track i:hover {
+  color: white;
+}
+
 /* player */
 .control {
-  margin-top: 5px;
-  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .control i {
-  margin-right: 25px;
+  margin: 0 12.5px;
   color: white;
   font-size: 16px;
 }
@@ -326,13 +341,20 @@ footer {
   font-size: 20px;
 }
 
+.control span i:hover {
+  font-size: 24px;
+  margin: 0 10.75px;
+}
+
 .player-bar {
   height: 40px;
+  padding-bottom:17.5px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.player-bar .bars{
+.player-bar .bar{
   margin: 0 30px;
   width: 500px;
 }
@@ -353,6 +375,6 @@ footer {
   color: white;
 }
 
-.settings .bars {
+.settings .bar {
   width: 100px;
 }
