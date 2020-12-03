@@ -214,8 +214,6 @@ main {
   flex-grow: 1;
   background-color: #141922;
   overflow-y: scroll;
-  /* controllare */
-  /* overflow-x: hidden; */
 }
 
 /* header-box */
