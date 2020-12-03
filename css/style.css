@@ -293,7 +293,19 @@ footer i:hover, .bar:hover {
 }
 
 .bar:hover .bar-active{
+  position: relative;
   background-color: #adff2f;
+}
+
+.bar:hover .bar-active::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
 }
 
 .bar-active{
@@ -318,8 +330,12 @@ footer i:hover, .bar:hover {
   font-size: 14px;
 }
 
-.track i:hover {
-  color: white;
+.track a:hover {
+  text-decoration:underline;
+}
+
+.track a:hover, .track i:hover {
+  color: #c1c1c1;
 }
 
 /* player */
@@ -372,7 +388,7 @@ footer i:hover, .bar:hover {
 
 .settings i {
   margin-right: 15px;
-  color: white;
+  color: #c1c1c1;
 }
 
 .settings .bar {
