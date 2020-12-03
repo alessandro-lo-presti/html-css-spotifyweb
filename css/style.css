@@ -451,7 +451,7 @@ footer i:hover, .bar:hover {
 
 /* media-query */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 
     /* section */
   .section-flex .box:not(.box:last-child){
@@ -460,7 +460,7 @@ footer i:hover, .bar:hover {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
 
   /* section */
   .section-flex {
@@ -473,7 +473,7 @@ footer i:hover, .bar:hover {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
   /* section */
   .section-flex .box{
@@ -483,6 +483,11 @@ footer i:hover, .bar:hover {
   .section-flex .box:not(.box:nth-child(4n)){
     margin-right: calc(20px / 4 + 20px);
   }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
 
 }
