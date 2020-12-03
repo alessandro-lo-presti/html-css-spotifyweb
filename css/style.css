@@ -282,6 +282,19 @@ footer {
   background-color: #282828;
 }
 
+.bars {
+  height: 5px;
+  background-color: #75787d;
+  border-radius: 20px;
+}
+
+.bars-active{
+  width: 25%;
+  height: 5px;
+  background-color: #c1c1c1;
+  border-radius: 20px;
+}
+
 /* track */
 .track {
   display: flex;
@@ -297,6 +310,17 @@ footer {
   font-size: 14px;
 }
 
-/* .track i {
-  margin: 0 10px;
-} */
+/* settings */
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.settings i {
+  margin-right: 10px;
+  color: white;
+}
+
+.settings .bars {
+  width: 100px;
+}
