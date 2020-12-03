@@ -33,7 +33,7 @@ a:hover {
 
 /* button */
 .btn-t{
-  padding: 10px 30px;
+  padding: 10px 25px;
   color: white;
   font-size: 15px;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .btn-t:hover{
-  padding: 11px 31px;
+  padding: 11px 26px;
   font-size: 17px;
 }
 
@@ -194,24 +194,24 @@ main {
 }
 
 /* header-box */
-.header-box {
+.header-layer {
   height: 90px;
   width: calc(100% - 250px);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 
 .header-box a {
-  margin-right: 30px;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  transform: translateY(-50%);
+  z-index: 100;
 }
 
-/* bottone da mettere sopra */
 
 /* menu */
 .menu {
@@ -315,6 +315,7 @@ footer {
   padding: 0 10px;
   position: fixed;
   bottom: 0;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
