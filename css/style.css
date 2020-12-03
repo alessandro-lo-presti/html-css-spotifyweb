@@ -45,6 +45,19 @@ a:hover {
   font-size: 19px;
 }
 
+/* visibility */
+.xs-hidden-inline{
+  display: inline;
+}
+
+.xs-hidden-block{
+  display: block;
+}
+
+.xs-visible{
+  display: none;
+}
+
 /* main */
 main {
   height: calc(100vh - 90px);
@@ -425,7 +438,7 @@ footer i:hover, .bar:hover {
 
 .player-bar .bar{
   margin: 0 30px;
-  width: 50%;
+  width: 40%;
   max-width: 500px;
 }
 
@@ -484,7 +497,6 @@ footer i:hover, .bar:hover {
     margin-right: calc(20px / 4 + 20px);
   }
 
-
 }
 
 @media screen and (max-width: 991px) {
@@ -496,6 +508,64 @@ footer i:hover, .bar:hover {
 
   .section-flex .box:not(.box:nth-child(2n)){
     margin-right: calc(20px / 2 + 20px);
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* visibility */
+  .xs-hidden-inline, .xs-hidden-block{
+    display: none;
+  }
+
+  .xs-visible{
+    display: inline;
+  }
+
+  /* main-nav */
+  .main-nav {
+    min-width: 70px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-nav > div:not(.nav-top) {
+    padding: 0;
+  }
+
+  /* nav-top */
+  .nav-top > div:not(.navbar) {
+    padding-left: 0px;
+  }
+
+  /* navbar */
+  .navbar li {
+    padding-left: 0px;
+  }
+
+  .navbar .active {
+    padding-left: 0px;
+    border-left: none;
+  }
+
+  /* profile */
+  .profile p {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .profile p img {
+    margin-right: 0px;
+  }
+
+  .profile div span:first-child {
+    margin-right: 0px;
+  }
+
+  /* header-layer */
+  .header-layer {
+    width: calc(100% - 70px);
   }
 
 }

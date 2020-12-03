@@ -26,22 +26,37 @@
 
           <!-- logo -->
           <div class="nav-logo">
-            <img src="img/logo.svg" alt="logo">
+            <img class="xs-hidden-inline" src="img/logo.svg" alt="logo">
+            <img class="xs-visible" src="img/logo-small.svg" alt="logo">
           </div>
           <!-- / logo -->
 
           <!-- navbar -->
           <div class="navbar">
             <ul>
-              <li class="active"><a href="#"><img src="img/home.svg" alt="home">Home</a></li>
-              <li><a href="#"><img src="img/search.svg" alt="search">Cerca</a></li>
-              <li><a href="#"><img src="img/libreria.svg" alt="libreria">La tua libreria</a></li>
+              <li class="active">
+                <a href="#">
+                  <img src="img/home.svg" alt="home">
+                  <span class="xs-hidden-inline">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/search.svg" alt="search">
+                  <span class="xs-hidden-inline">Cerca</span>
+                  </a>
+                </li>
+              <li><a href="#">
+                <img src="img/libreria.svg" alt="libreria">
+                <span class="xs-hidden-inline">La tua libreria</span>
+              </a>
+            </li>
             </ul>
           </div>
           <!-- / navbar -->
 
           <!-- playlist -->
-          <div class="playlist">
+          <div class="playlist xs-hidden-block">
             <ul>
               <li><h4>Playlist</h4></li>
               <li><a href="#"><span><i class="fas fa-plus"></i></span> Crea Playlist</a></li>
@@ -53,7 +68,7 @@
         <!-- / nav-top -->
 
         <!-- nav-scrool -->
-        <div class="nav-scroll">
+        <div class="nav-scroll xs-hidden-block">
 
           <!-- list-playlist -->
           <ul class="list-playlist">
@@ -75,10 +90,17 @@
 
           <!-- profile -->
           <div class="profile">
-            <p><a href="#"><img src="img/download.svg" alt="download"> Installa app</a></p>
+            <p>
+              <a href="#">
+                <img src="img/download.svg" alt="download">
+                <span class="xs-hidden-inline">Installa app</span>
+              </a>
+            </p>
             <div>
-              <span><img src="img/profile.svg" alt="profile"></span>
-              <span>John Doe</span>
+              <span>
+                <img src="img/profile.svg" alt="profile">
+              </span>
+              <span class="xs-hidden-inline">John Doe</span>
             </div>
           </div>
           <!-- / profile -->
