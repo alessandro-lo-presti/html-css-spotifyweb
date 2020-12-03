@@ -63,7 +63,7 @@ main {
 }
 
 .main-nav > div:not(.nav-top) {
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .main-nav li {
