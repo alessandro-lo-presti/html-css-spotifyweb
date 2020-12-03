@@ -535,11 +535,7 @@ footer i:hover, .bar:hover {
   }
 
   /* nav-top */
-  .nav-top > div:not(.navbar) {
-    padding-left: 0px;
-  }
-
-  /* navbar */
+  .nav-top > div:not(.navbar),
   .navbar li {
     padding-left: 0px;
   }
@@ -566,6 +562,21 @@ footer i:hover, .bar:hover {
   /* header-layer */
   .header-layer {
     width: calc(100% - 70px);
+  }
+
+
+  /* footer track */
+  .track div:nth-child(2) {
+    margin: 0 5px;
+  }
+
+}
+
+@media screen and (max-width: 578px) {
+
+  /* track */
+  .song-pic {
+    display: none;
   }
 
 }
