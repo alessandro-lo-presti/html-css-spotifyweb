@@ -209,8 +209,16 @@ section p {
   background-color: grey;
 }
 
+.nav-bottom div span:first-child:hover {
+  cursor: pointer;
+}
+
 .nav-bottom div span:last-child {
   color: white;
+}
+
+.nav-bottom div span:last-child:hover {
+  cursor: auto;
 }
 
 
