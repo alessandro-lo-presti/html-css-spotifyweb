@@ -310,6 +310,38 @@ footer {
   font-size: 14px;
 }
 
+/* player */
+.control {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.control i {
+  margin-right: 25px;
+  color: white;
+  font-size: 16px;
+}
+
+.control span i {
+  font-size: 20px;
+}
+
+.player-bar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.player-bar .bars{
+  margin: 0 30px;
+  width: 500px;
+}
+
+.player-bar span {
+  color: white;
+  font-size: 13px;
+}
+
 /* settings */
 .settings {
   display: flex;
@@ -317,7 +349,7 @@ footer {
 }
 
 .settings i {
-  margin-right: 10px;
+  margin-right: 15px;
   color: white;
 }
 
