@@ -594,19 +594,20 @@ footer i:hover, .bar:hover {
   }
 
   .track div:nth-child(2) {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .track p{
-    height: 13px;
+    height: 15px;
   }
 
   .track div:last-child p:first-child{
-    margin-top: -13px;
+    margin-top: -8px;
+    margin-bottom: 3px
   }
 
   .track i {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   /* player */
@@ -655,13 +656,13 @@ footer i:hover, .bar:hover {
   }
 
   .settings i {
-    font-size: 13px;
+    font-size: 15px;
     margin-right: 15px;
     color: #c1c1c1;
   }
 
   .settings .bar {
-    width: 70px;
+    width: 80px;
   }
 
 }
