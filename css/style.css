@@ -73,6 +73,7 @@ main {
   justify-content: space-between;
   background-color: black;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .main-nav > div:not(.nav-top) {
