@@ -191,9 +191,10 @@ main {
 
 .profile div span:first-child {
   margin-right: 10px;
-  padding: 10px 8px;
+  padding: 10px 6px 10px 8px;
   border-radius: 50%;
   background-color: grey;
+  overflow: hidden;
 }
 
 .profile div span:first-child:hover {
@@ -561,6 +562,11 @@ footer i:hover, .bar:hover {
   .profile div span:first-child {
     margin-right: 0px;
   }
+
+  .profile div span:first-child {
+    padding: 10px 8px;
+  }
+
 
   /* header-layer */
   .header-layer {
