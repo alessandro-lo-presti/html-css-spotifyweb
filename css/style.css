@@ -589,3 +589,11 @@ footer i:hover, .bar:hover {
   }
 
 }
+
+@media screen and (max-height: 350px) {
+
+  .header-box {
+    display: none;
+  }
+
+}
