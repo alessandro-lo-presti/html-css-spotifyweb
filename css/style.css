@@ -581,16 +581,92 @@ footer i:hover, .bar:hover {
 
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 600px) {
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
   /* track */
-  .song-pic {
-    display: none;
+  .track img {
+    width: 25px;
+  }
+
+  .track div:nth-child(2) {
+    font-size: 10px;
+  }
+
+  .track p{
+    height: 13px;
+  }
+
+  .track div:last-child p:first-child{
+    margin-top: -13px;
+  }
+
+  .track i {
+    font-size: 12px;
+  }
+
+  /* player */
+  .player {
+    order: -1;
+    width: 100%;
+  }
+
+  .control {
+    height: 25px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .control i {
+    margin: 0 8px;
+    font-size: 13px;
+  }
+
+  .control span i {
+    font-size: 15px;
+  }
+
+  .control span i:hover {
+    font-size: 18px;
+  }
+
+  .player-bar {
+    height: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .player-bar span {
+    font-size: 13px;
+  }
+
+  /* settings */
+  .settings {
+    display: flex;
+    align-items: center;
+  }
+
+  .settings i {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #c1c1c1;
+  }
+
+  .settings .bar {
+    width: 70px;
   }
 
 }
 
-@media screen and (max-height: 350px) {
+@media screen and ((max-height: 350px) or (max-width: 350px)) {
 
   .header-box {
     display: none;
