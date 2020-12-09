@@ -544,6 +544,10 @@ footer i:hover, .bar:hover {
     border-left: none;
   }
 
+  .navbar img {
+    margin-right: 0px;
+  }
+
   /* profile */
   .profile p {
     padding: 0;
